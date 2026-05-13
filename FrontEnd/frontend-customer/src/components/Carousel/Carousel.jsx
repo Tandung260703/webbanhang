@@ -1,4 +1,4 @@
-import "./carousel.css"
+import "./Carousel.css"
 import {useState} from 'react'
 import left_arrow from "../../assets/left_arrow.png"
 import right_arrow from "../../assets/right_arrow.png"
