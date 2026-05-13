@@ -1,0 +1,119 @@
+/* Tổng thể layout */
+#mainPage {
+  display: flex;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+/* SIDEBAR */
+#sideBar {
+  width: 220px;
+  background-color: #111827;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+}
+
+#sideBar .logo {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+#sideBar ul {
+  list-style: none;
+  padding: 0;
+}
+
+#sideBar li {
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+#sideBar li:hover,
+#sideBar li.active {
+  background-color: #2563eb;
+}
+
+/* MAIN CONTENT */
+#mainContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 12px 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.searchBox {
+  width: 250px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.searchBox:focus {
+  border-color: #2563eb;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid #2563eb;
+}
+
+/* CONTENT */
+.content {
+  flex: 1;
+  padding: 20px 30px;
+}
+
+.content h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  flex: 1;
+  min-width: 200px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  text-align: center;
+  font-weight: 500;
+  color: #2563eb;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}

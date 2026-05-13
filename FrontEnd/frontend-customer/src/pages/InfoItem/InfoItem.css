@@ -1,0 +1,26 @@
+#renderContainer{
+    margin-top:100px;
+    width:100vw;
+    height:auto;
+    overflow-y: auto;
+    position:relative;
+    justify-items: center;
+    align-items: center;
+}
+.infoRender{
+    width:100vw;
+    height:auto;
+}
+.infoRender>.infoProduct>.nameProduct{
+    font-size:30px;
+    pointer-events: none;
+}
+.infoRender>.infoProduct{
+    pointer-events: none;
+}
+.infoRender>.infoProduct .price{
+    font-size:30px;
+    font-weight:700;
+    color:rgb(249, 151, 31);
+}
+

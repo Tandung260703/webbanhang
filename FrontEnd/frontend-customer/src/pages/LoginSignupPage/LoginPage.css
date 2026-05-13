@@ -1,0 +1,67 @@
+#loginPageContainer{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+form *{
+    display:grid;
+    grid-template-columns: auto;
+    font-size:20px;
+}
+form{
+    width:fit-content;
+    height:fit-content;
+    padding:0 50px 50px 50px;
+    border:1px solid black;
+    border-radius:20%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    justify-items: center;
+}
+form button{
+    margin-top:20px;
+}
+.form:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
+  transform: translateY(-3px);
+  transition: all 0.3s ease;
+}
+form input{
+    width:200px;
+    height:40px;
+    border:1px dotted;
+    border-radius: 10px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.6); /* sáng nhẹ khi focus */
+  border-color: #007bff;
+}
+#LoginPage{
+    display:flex;
+    flex-wrap: wrap;
+    padding-top:150px;
+
+}
+#LoginPage>*{
+    flex-basis:100vw;
+}
+.signUp>u{
+    transition:all 0.3s ease;
+    cursor:pointer;
+    font-weight: 700;
+}
+.signUp>u:hover{
+    text-decoration: none;
+    background:black;
+    color:aliceblue;
+
+}
+.signUp{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}

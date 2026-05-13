@@ -1,0 +1,101 @@
+.cardContainer{
+    width:250px;
+    height:500px;
+    background:white;
+    border-radius:20px;
+    box-shadow:10px 10px 15px 5px rgba(0,0,0,0.5);
+}
+.picProduct{
+    width:100%;
+    height:60%;
+}
+.picProduct>img{
+    width:100%;
+    height:100%;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+.infoProduct{
+    width:100%;
+    height:auto;
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "left right"
+        "footer footer"; 
+    gap:10px;
+}
+.left {
+  grid-area: left;
+}
+
+.right {
+  grid-area: right;
+}
+
+.footer {
+  grid-area: footer;
+}
+.paragraph.footer {
+    justify-self: stretch; /* chiếm full width */
+  color: #555;
+}
+.addCart{
+    opacity:0;
+    right:11px;
+    transform:translate(-40px);
+    transition:opacity 0.4s ease, transform 0.4s ease;
+    cursor:pointer;
+    z-index:1;
+}
+.nameProduct{
+    width:fit-content;
+    height:fit-content;
+    cursor:pointer;
+    transition:transform 0.5s ease,background 0.4s ease;
+    font-size:15px;
+    font-weight:bold;
+    margin-left: 10px;
+}
+.nameProduct:hover{
+    transform:scale(1.2);
+    background:black;
+    color:#B5DDD1;
+    border-radius:3px;
+    padding:3px;
+}
+.addCart>img{
+    width:10px;
+    height:10px;
+}
+.infoProduct:hover .addCart{
+    opacity:1;
+    transform:translateX(+10px)
+}
+.price{
+    margin-right:10px;
+    transition:0.4s ease,opacity 0.2s ease,transform 0.2s ease;
+}
+.infoProduct:hover .price{
+    display:none;
+    opacity:0;
+    transform:translateX(-20px)
+}
+/* ============================================================ */
+.style1>.picProduct:hover>img{
+    transform:translate(20px,-20px);
+    cursor:pointer;
+}
+.style1>.picProduct>img{
+    transition:transform 0.4s ease;
+}
+
+/* ================================================== */
+.style2>.picProduct:hover>img{
+    transform:translate(20px,-20px);
+    cursor:pointer;
+}
+.style2>.picProduct>img{
+    transition:transform 0.4s ease;
+}

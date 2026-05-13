@@ -1,0 +1,22 @@
+#containerPromo{
+    margin-top:30px;
+    margin-bottom:30px;
+    width:100vw;
+    height:auto;
+    display:grid;
+    grid-template-columns: auto auto;
+}
+#productPromo{
+    height:auto;
+    display:flex;
+    margin:auto;
+    gap:30px;
+    padding-right:10px;
+}
+
+
+
+
+
+
+

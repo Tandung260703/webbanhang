@@ -1,0 +1,19 @@
+.listProduct{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content:center;
+    list-style: none;
+    gap:20px;
+    padding:0;
+    height:100vh;
+    overflow-y:auto;
+
+}
+#itemsContainer{
+    width:100vw;
+
+}
+
+
+
+

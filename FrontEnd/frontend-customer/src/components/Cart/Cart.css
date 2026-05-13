@@ -1,0 +1,29 @@
+#cartContainer{
+    margin-top:20vh;
+    width:100vw;
+    height:auto;
+    padding:10px;
+}
+.deleBtn{
+    transition: 0.3s ease;
+}
+.addBtn{
+    transition: 0.3s ease;
+}
+.deleBtn:hover{
+    background:rgb(8, 79, 8);
+    color:azure;
+    border:1px solid white;
+    transform:rotate(10deg);
+
+}
+.addBtn:hover{
+    background:rgb(122, 8, 8);
+    color:azure;
+    border:1px solid white;
+    transform:rotate(-10deg);
+}
+
+#CartPage{
+    padding-top:15vh;
+}

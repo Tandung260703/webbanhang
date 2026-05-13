@@ -1,0 +1,9 @@
+#container{
+    margin-top:20vh;
+    padding:0;
+    width:100%;
+    height:auto;
+    background:linear-gradient(to bottom,#E2A16F,#FFF0DD,#D1D3D4,#86B0BD);
+    display:flex;
+    flex-direction: column;
+}

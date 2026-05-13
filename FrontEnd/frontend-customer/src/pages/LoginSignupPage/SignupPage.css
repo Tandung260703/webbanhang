@@ -1,0 +1,58 @@
+#SignupContainer{
+    width:100vw;
+    height:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+#SignupPage{
+    display:flex;
+    flex-wrap: wrap;
+    padding-top:150px;
+}
+.Login{
+    font-weight: 700;
+}
+.Login>u:hover{
+    background:rgb(10, 10, 84);
+    color:aliceblue;
+}
+.Login>u{
+    transition:all 0.3s ease;
+    cursor:pointer;
+    font-weight: 700;
+}
+.Login{
+    display:flex;
+    justify-content: center;
+}
+.fullName{
+    width:auto;
+    display:grid;
+    grid-template-columns: auto auto;
+    gap:10px;
+    position:relative;
+}
+label{
+    width:100%;
+    display:grid;
+    grid-template-columns: auto;
+    justify-items: center;
+}
+.name{
+    display:flex;
+    width:50%;
+}
+.rightInput{
+    width:50%;
+}
+.leftInput{
+    width:50%;
+}
+form{
+    display:grid;
+    grid-template-columns: auto;
+    gap:5px;
+}
+
